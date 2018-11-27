@@ -17,6 +17,7 @@ class Solution(object):
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
+
         """
         for index,num in enumerate(nums):
             for i in range(index+1,len(nums)):
